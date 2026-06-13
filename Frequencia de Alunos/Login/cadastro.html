@@ -1,37 +1,53 @@
+<!-- Página HTML para cadastro de usuários -->
 <html>
 <head>
     <title>CADASTRO DE USUÁRIOS</title>
+    <!-- Define a codificação de caracteres como UTF-8 -->
     <meta charset="UTF-8">
+    <!-- Importa o CSS do Bootstrap para estilização responsiva -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
 <body>
+    <!-- Script jQuery para funcionalidades interativas -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Script Popper.js para componentes do Bootstrap -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!-- Script Bootstrap para componentes dinâmicos -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   
+    <!-- Container principal da página -->
     <div class="container">
+      <!-- Centraliza o conteúdo -->
       <center>
+        <!-- Card (caixa) para o formulário de cadastro -->
         <div class="card">
+            <!-- Cabeçalho do card -->
             <div class="card-header">
               Cadastro de Usuario
             </div>
+                <!-- Corpo do card com formulário -->
                 <div class="card-body">
+                    <!-- Formulário que envia dados via POST para cadastro.php -->
                     <form method="POST" action="cadastro.php">
                     <div class="form-group"></div>
+                       <!-- Campo de entrada para nome de usuário -->
                        <div class="1" text-align="center">
-                        <label>Usuario</label><input type="text" name="usuario" id="usuario"required><br>
-                      </div>
-                       <div class="2">
-                        <label>Senha</label><input type="password" name="senha" id="senha"required><br>
+                         <label>Usuario</label><input type="text" name="usuario" id="usuario" required><br>
                        </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </div>  
-                    </form>
-            </dive>
-        </div>
-      </center>
-    </div>  
+                        <!-- Campo de entrada para senha -->
+                        <div class="2">
+                         <label>Senha</label><input type="password" name="senha" id="senha" required><br>
+                        </div>
+                         <!-- Botão para submeter o formulário -->
+                         <button type="submit" class="btn btn-primary">Enviar</button>
+                     </div>  
+                     </form>
+             <!-- Nota: Tag de fechamento está incorreta (dive em vez de div) -->
+             </dive>
+         </div>
+       </center>
+     </div>  
 </body>
 
 </html>
