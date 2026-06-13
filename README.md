@@ -1,1 +1,7 @@
-# Projetos-Pessoais
+# Sistema de Controle de Frequência de Alunos:
+
+A unidade SENAI Juiz de Fora CFP José Fagundes Netto está necessitando de uma demanda para auxiliar as empresas que possuem alunos com contrato de aprendizagem a monitorar a frequência destes alunos. Tal ação hoje é feita enviando um e-mail para cada empresa individualente, o que demanda muito tempo.
+Seu objetivo é desenvolver uma solução em PHP que seja capaz o cadastro de cada empresa para que ela tenha o acesso a um arquivo gerado pela secretaria e este seja acessado por cada empresa de forma individual. É importante frisar que cada empresa pode ter vários alunos com contrato e este arquivo é gerado mensalmente. Quem envia o arquivo para o sistema é a secretaria da escola e a empresa acessa posteriormente este arquivo para poder gerar a folha de pagamento. Por questões de segurança cada empresa tem um único colaborador que acessa este arquivo e consulta as informações e para a secretaria da escola, são 2 funcionários com acessos distintos, porém com as mesmas funções de entrar no cadastro de cada empresa e enviar o arquivo gerado referente ao mês atual e para cada empresa.
+Quaiquer dúvidas poderão ser tiradas com o proprio funcionário da secretaria atraves de uma entrevista e levantamento de requisitos.
+
+Obs. O Sistema deverá ser desenvolvido de forma individual e deverá ser apresentado em data a ser estabelecida durante o desenvolvimento da atividade.
