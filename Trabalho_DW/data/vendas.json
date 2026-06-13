@@ -1,0 +1,99 @@
+[
+    {
+        "id": 1,
+        "data": "2025-11-10",
+        "produto": "Ferrari F8 Tributo",
+        "preco": 280000,
+        "metodo_pagamento": "Cr\u00e9dito",
+        "usuario_id": 1,
+        "status": "Conclu\u00edda"
+    },
+    {
+        "id": 2,
+        "data": "2025-11-08",
+        "produto": "BMW M440i xDrive",
+        "preco": 95000,
+        "metodo_pagamento": "D\u00e9bito",
+        "usuario_id": 2,
+        "status": "Conclu\u00edda"
+    },
+    {
+        "id": 3,
+        "data": "2025-11-09",
+        "produto": "Audi A7 Sportback",
+        "preco": 125000,
+        "metodo_pagamento": "PIX",
+        "usuario_id": 3,
+        "status": "Conclu\u00edda"
+    },
+    {
+        "id": 4,
+        "data": "2025-11-15",
+        "produto_id": "2",
+        "produto": "Fiat Ed 1.0 Mpi 2p E 4p",
+        "preco": 2600,
+        "metodo_pagamento": "CARTAO",
+        "usuario_id": 1,
+        "status": "Conclu\u00edda"
+    },
+    {
+        "id": 5,
+        "data": "2025-11-15",
+        "produto_id": "3",
+        "produto": "Chevrolet Chevette",
+        "preco": 2900,
+        "metodo_pagamento": "PIX",
+        "usuario_id": 1,
+        "status": "Conclu\u00edda"
+    },
+    {
+        "id": 6,
+        "data": "2025-11-15",
+        "produto_id": "10",
+        "produto": "Chevrolet Monza Classic\/ Sl\/e\/sr 1.8",
+        "preco": 5500,
+        "metodo_pagamento": "BOLETO",
+        "usuario_id": 5,
+        "status": "Conclu\u00edda"
+    },
+    {
+        "id": 7,
+        "data": "2025-11-15",
+        "produto_id": "11",
+        "produto": "Peugeot 206 Presence 1.4\/ 1.4 Flex 8V 5P",
+        "preco": 6000,
+        "metodo_pagamento": "PIX",
+        "usuario_id": 1,
+        "status": "Conclu\u00edda"
+    },
+    {
+        "id": 8,
+        "data": "2025-11-15",
+        "produto_id": "2",
+        "produto": "Fiat Ed 1.0 Mpi 2p E 4p",
+        "preco": 2600,
+        "metodo_pagamento": "CARTAO",
+        "usuario_id": 1,
+        "status": "Conclu\u00edda"
+    },
+    {
+        "id": 9,
+        "data": "2025-11-15",
+        "produto_id": "3",
+        "produto": "Chevrolet Chevette",
+        "preco": 2900,
+        "metodo_pagamento": "PIX",
+        "usuario_id": 1,
+        "status": "Conclu\u00edda"
+    },
+    {
+        "id": 10,
+        "data": "2025-11-16",
+        "produto_id": "2",
+        "produto": "Fiat Ed 1.0 Mpi 2p E 4p",
+        "preco": 2600,
+        "metodo_pagamento": "PIX",
+        "usuario_id": 1,
+        "status": "Conclu\u00edda"
+    }
+]
