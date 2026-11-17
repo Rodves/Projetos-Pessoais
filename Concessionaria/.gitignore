@@ -1,0 +1,13 @@
+# Dados sensíveis — não enviar ao repositório público
+data/usuarios.json
+data/vendas.json
+
+# PDFs e recursos de design — não são código
+html/paleta_cores/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Script de migração — executar apenas uma vez e deletar
+php/migrar_senhas.php

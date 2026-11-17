@@ -1,0 +1,59 @@
+<?php
+session_start();
+if (!isset($_SESSION['admin_id'])) {
+    header("Location: admin_tela.php");
+    exit();
+}
+
+$admin_nome = $_SESSION['admin_nome'] ?? 'Admin';
+?>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviso Administrativo - Sistema EAD</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <style>
+        .navbar-custom {
+            background-color: #1B3954;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-custom">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1 text-white">
+                <i class="bi bi-shield-check me-2"></i>Admin <strong><?php echo htmlspecialchars($admin_nome); ?></strong>
+            </span>
+            <a href="logout_adm.php" class="btn btn-danger btn-sm">Sair</a>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                <div class="card shadow-sm border-danger">
+                    <div class="card-body p-4 text-center">
+                        <div class="text-danger display-4 mb-3">
+                            <i class="bi bi-person-x-fill"></i>
+                        </div>
+                        <h4 class="card-title fw-bold text-danger">Exclusão Bloqueada</h4>
+                        <p class="card-text text-muted fs-5 mt-2">
+                            Não é permitido excluir um professor que possui turmas vinculadas ao seu nome.
+                        </p>
+                        <p class="text-muted small">
+                            Apenas professores sem nenhuma turma atribuída podem ser removidos do sistema.
+                        </p>
+                        <div class="mt-4">
+                            <a href="listar_professor.php" class="btn btn-primary px-4">
+                                <i class="bi bi-arrow-left me-1"></i>Voltar para Lista de Professores
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
